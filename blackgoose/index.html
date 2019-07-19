@@ -6,16 +6,45 @@
    <title>Black Goose Bistro</title>
    <style>
    body {
-     background-color: turquoise;
+     background: #40e0d0 url(images/backgroundblackgoose.png) no-repeat center 100px fixed;
      margin: 0 10%;
      font-family: sans-serif;
-     }
+   }
+   header {
+     margin-top: 0;
+     padding: 3em 1em 2em 1em;
+     text-align: center;
+     background: 
+       url(images/purpledot.png) center top repeat-x,
+       url(images/purpledot.png) left top repeat-y,
+       url(images/purpledot.png) right top repeat-y,
+       url(images/gooseshadow.png) 90% bottom no-repeat;
+     background-color: rgba(255,255,255,.5);
+   }
+   a {
+     text-decoration: none;
+   }
+   a:link {
+     color: #939;
+   }
+   a:visited {
+     color: #937393;
+   }
+   a:focus, a:hover {
+     color: #c700f2;
+     background-color: #fff;
+   }
+   a:active {
+     color: #f0f;
+     background-color: #fff;
+   }
    h1 {
      text-align: center;
      font-family: serif;
      font-weight: normal;
      text-transform: uppercase;
      border-bottom: 1px solid #57b1dc;
+     color: firebrick;
      margin-top: 30px
    }
    h2 {
@@ -26,6 +55,7 @@
 </head>
 
 <body>
+<header>
 <h1><img src="blackgoose.png" alt="logo"><br>Black Goose</h1>
 
 <p><a href="menu.html">Menu</a></p>
@@ -33,6 +63,8 @@
 <p><a href="contact.html">Contact</a></p>
 <p><a href="pizza.html">Order Online</a></p>
 <p><a href="cooking.html">Cooking with Daniel</a></p>
+
+</header>
 
 <h2>The Restaurant</h2>
 <p>The Black Goose offers casual lunch and dinner fare in a relaxed atmosphere.  The menu changes regularly to highlight the freshest local ingedients.</p>
